@@ -52,15 +52,25 @@ func RunServer(
 		RentalServerPasscode: rentalServerPasscode,
 	}
 
+	maxRetries := 5
+	retryCount := 0
 	for {
 		c, err := client.LoginRentalServer(cfg)
 		if err != nil {
 			if strings.Contains(fmt.Sprintf("%v", err), "netease.report.kick.hint") {
 				continue
 			}
-			panic(err)
+			retryCount++
+			if retryCount <= maxRetries {
+				pterm.Warning.Printfln("连接失败（尝试 %d/%d）: %v", retryCount, maxRetries, err)
+				pterm.Info.Printfln("等待 3 秒后重试...")
+				time.Sleep(time.Second * 3)
+				continue
+			}
+			panic(fmt.Sprintf("连接失败，已重试 %d 次: %v", maxRetries, err))
 		}
 		mcClient = c
+		pterm.Success.Printfln("成功连接到租赁服务器！")
 		break
 	}
 
