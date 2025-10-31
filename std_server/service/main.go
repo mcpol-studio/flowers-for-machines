@@ -5,6 +5,8 @@ import (
     "log"
     "strconv"
     "fmt"
+    "os"
+    "bufio"
 
     service "github.com/OmineDev/flowers-for-machines/std_server/service/src"
     "github.com/pterm/pterm"
@@ -101,11 +103,26 @@ func init() {
 func main() {
     defer func() {
         if r := recover(); r != nil {
-            fmt.Println("后端运行异常（标准服务器启动失败）！")
-            fmt.Printf("错误信息：%v\n", r)
-            fmt.Println("请检查启动参数、token和网络连接，并阅读 README 帮助排查。如仍有疑问，请将上述错误信息截图后咨询技术支持。\n")
+            fmt.Fprintf(os.Stderr, "\n")
+            fmt.Fprintf(os.Stderr, "========================================\n")
+            fmt.Fprintf(os.Stderr, "后端运行异常（标准服务器启动失败）！\n")
+            fmt.Fprintf(os.Stderr, "========================================\n")
+            fmt.Fprintf(os.Stderr, "错误信息：%v\n", r)
+            fmt.Fprintf(os.Stderr, "\n")
+            fmt.Fprintf(os.Stderr, "请检查启动参数、token和网络连接，并阅读 README 帮助排查。\n")
+            fmt.Fprintf(os.Stderr, "如仍有疑问，请将上述错误信息截图后咨询技术支持。\n")
+            fmt.Fprintf(os.Stderr, "========================================\n")
+            fmt.Fprintf(os.Stderr, "\n按 Enter 键退出...\n")
+            os.Stderr.Sync()
+            os.Stdout.Sync()
+            
+            // 等待用户输入，确保能看到错误信息
+            reader := bufio.NewReader(os.Stdin)
+            reader.ReadString('\n')
+            os.Exit(1)
         }
     }()
+    
     service.RunServer(
         *rentalServerCode,
         *rentalServerPasscode,
