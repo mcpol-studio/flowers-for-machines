@@ -3,7 +3,7 @@ package raknet_test
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/raknet"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/raknet"
 )
 
 func ExamplePing() {

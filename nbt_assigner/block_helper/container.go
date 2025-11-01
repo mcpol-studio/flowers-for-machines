@@ -3,7 +3,7 @@ package block_helper
 import (
 	"strings"
 
-	"github.com/OmineDev/flowers-for-machines/utils"
+	"github.com/mcpol-studio/flowers-for-machines/utils"
 )
 
 // ContainerBlockOpenInfo 描述了要

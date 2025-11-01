@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // Transfer is sent by the server to transfer a player from the current server to another. Doing so will

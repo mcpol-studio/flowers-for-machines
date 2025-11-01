@@ -1,4 +1,4 @@
-module github.com/OmineDev/flowers-for-machines
+module github.com/mcpol-studio/flowers-for-machines
 
 go 1.24
 

@@ -3,10 +3,10 @@ package nbt_parser_item
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/mapping"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
-	"github.com/OmineDev/flowers-for-machines/utils"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
+	"github.com/mcpol-studio/flowers-for-machines/utils"
 
 	"github.com/TriM-Organization/bedrock-world-operator/block"
 	"github.com/df-mc/worldupgrader/blockupgrader"

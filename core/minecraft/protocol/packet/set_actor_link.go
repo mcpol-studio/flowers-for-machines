@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // SetActorLink is sent by the server to initiate an entity link client-side, meaning one entity will start

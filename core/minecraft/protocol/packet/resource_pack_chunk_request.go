@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // ResourcePackChunkRequest is sent by the client to request a chunk of data from a particular resource pack,

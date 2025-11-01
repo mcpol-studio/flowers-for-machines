@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // AgentAnimation is an Education Edition packet sent from the server to the client to make an agent perform an animation.

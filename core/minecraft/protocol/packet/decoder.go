@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // Decoder handles the decoding of Minecraft packets sent through an io.Reader. These packets in turn contain

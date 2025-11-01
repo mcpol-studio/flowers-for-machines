@@ -1,8 +1,8 @@
 package minecraft
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/ai_command"
-	mei "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/interface"
+	"github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/ai_command"
+	mei "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/interface"
 )
 
 // 魔法指令

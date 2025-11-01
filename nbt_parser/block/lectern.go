@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
 )
 
 // LecternNBT ..

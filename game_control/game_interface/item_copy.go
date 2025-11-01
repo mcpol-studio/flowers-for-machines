@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
 )
 
 type (

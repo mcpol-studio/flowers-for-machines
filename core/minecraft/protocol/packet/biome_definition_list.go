@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // BiomeDefinitionList is sent by the server to let the client know all biomes that are available and

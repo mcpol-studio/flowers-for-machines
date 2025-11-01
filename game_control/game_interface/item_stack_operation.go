@@ -1,7 +1,7 @@
 package game_interface
 
 import (
-	"github.com/OmineDev/flowers-for-machines/game_control/game_interface/item_stack_transaction"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/game_interface/item_stack_transaction"
 )
 
 // ItemStackOperation 是物品操作请求的包装实现

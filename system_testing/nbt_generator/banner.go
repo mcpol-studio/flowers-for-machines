@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/nbt"
-	"github.com/OmineDev/flowers-for-machines/mapping"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/nbt"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
 )
 
 func GenerateRandomBanner() {

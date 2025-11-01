@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/std_server/define"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/std_server/define"
 	"go.etcd.io/bbolt"
 )
 

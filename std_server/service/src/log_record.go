@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/std_server/define"
+	"github.com/mcpol-studio/flowers-for-machines/std_server/define"
 )
 
 const EnableLogRecordSending = true

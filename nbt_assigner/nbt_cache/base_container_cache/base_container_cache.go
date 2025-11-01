@@ -1,7 +1,7 @@
 package base_container_cache
 
 import (
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_console"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_console"
 
 	"github.com/google/uuid"
 )

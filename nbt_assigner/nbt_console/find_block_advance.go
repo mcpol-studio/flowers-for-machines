@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/game_interface"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/block_helper"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/game_interface"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/block_helper"
 )
 
 // FindAir 从操作台的帮助方块中寻找一个空气方块。

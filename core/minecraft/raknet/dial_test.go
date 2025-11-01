@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/raknet"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/raknet"
 )
 
 func TestPing(t *testing.T) {

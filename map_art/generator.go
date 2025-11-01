@@ -3,7 +3,7 @@ package map_art
 import (
 	"image/color"
 
-	"github.com/OmineDev/flowers-for-machines/utils"
+	"github.com/mcpol-studio/flowers-for-machines/utils"
 )
 
 // GenerateMapArtStructure ..

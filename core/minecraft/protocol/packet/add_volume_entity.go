@@ -1,8 +1,8 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/nbt"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/nbt"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // AddVolumeEntity sends a volume entity's definition and metadata from server to client.

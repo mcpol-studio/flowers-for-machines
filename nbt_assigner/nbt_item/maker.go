@@ -3,12 +3,12 @@ package nbt_item
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
-	nbt_assigner_interface "github.com/OmineDev/flowers-for-machines/nbt_assigner/interface"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_cache"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_console"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
-	nbt_parser_item "github.com/OmineDev/flowers-for-machines/nbt_parser/item"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
+	nbt_assigner_interface "github.com/mcpol-studio/flowers-for-machines/nbt_assigner/interface"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_cache"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_console"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
+	nbt_parser_item "github.com/mcpol-studio/flowers-for-machines/nbt_parser/item"
 )
 
 func init() {

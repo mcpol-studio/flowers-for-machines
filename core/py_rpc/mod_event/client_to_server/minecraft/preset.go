@@ -1,8 +1,8 @@
 package minecraft
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/preset"
-	mei "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/interface"
+	"github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/preset"
+	mei "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/interface"
 )
 
 type Preset struct{ mei.Module }

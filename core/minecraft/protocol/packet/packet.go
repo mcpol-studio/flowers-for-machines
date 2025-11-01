@@ -3,7 +3,7 @@ package packet
 import (
 	"io"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // Packet represents a packet that may be sent over a Minecraft network connection. The packet needs to hold

@@ -3,9 +3,9 @@ package py_rpc
 import (
 	"fmt"
 
-	cts "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server"
-	mei "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/interface"
-	stc "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/server_to_client"
+	cts "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server"
+	mei "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/interface"
+	stc "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/server_to_client"
 )
 
 // Describe the type of PyRpc/ModEvent packet

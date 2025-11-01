@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+import "github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 
 // EducationResourceURI is a packet that transmits education resource settings to all clients.
 type EducationResourceURI struct {

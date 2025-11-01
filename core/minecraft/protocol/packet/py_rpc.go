@@ -5,7 +5,7 @@ Author: LNSSPsd, Liliya233, CMA2401PT, Happy2018new
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 const (

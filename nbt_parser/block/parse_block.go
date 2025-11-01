@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OmineDev/flowers-for-machines/mapping"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
 
 	"github.com/df-mc/worldupgrader/blockupgrader"
 )

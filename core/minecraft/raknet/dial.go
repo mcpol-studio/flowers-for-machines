@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/raknet/internal"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/raknet/internal"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/raknet/internal/message"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/raknet/internal/message"
 )
 
 // UpstreamDialer is an interface for anything compatible with net.Dialer.

@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/raknet/internal"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/raknet/internal"
 )
 
 // UpstreamPacketListener allows for a custom PacketListener implementation.

@@ -3,7 +3,7 @@ package packet
 import (
 	"image/color"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 const (

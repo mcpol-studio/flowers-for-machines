@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
-	"github.com/OmineDev/flowers-for-machines/core/py_rpc"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/py_rpc"
 
 	"github.com/google/uuid"
 )

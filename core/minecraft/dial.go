@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/core/bunker/auth"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/login"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/bunker/auth"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/login"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
 	"github.com/go-jose/go-jose/v3/jwt"
 	"github.com/google/uuid"
 )

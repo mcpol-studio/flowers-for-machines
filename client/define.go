@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/bunker/auth"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/bunker/auth"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
 )
 
 // ------------------------- Config -------------------------

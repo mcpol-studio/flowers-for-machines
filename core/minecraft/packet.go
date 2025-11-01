@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
 )
 
 // packetData holds the data of a Minecraft packet.

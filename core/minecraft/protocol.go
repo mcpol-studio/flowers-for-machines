@@ -3,8 +3,8 @@ package minecraft
 import (
 	"io"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
 )
 
 // Protocol represents the Minecraft protocol used to communicate over network. It comprises a unique set of packets

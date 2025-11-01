@@ -3,8 +3,8 @@ package minecraft_test
 import (
 	"fmt"
 
-	minecraft "github.com/OmineDev/flowers-for-machines/core/minecraft"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
+	minecraft "github.com/mcpol-studio/flowers-for-machines/core/minecraft"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
 )
 
 func ExampleListen() {

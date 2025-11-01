@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // PlayerToggleCrafterSlotRequest is sent by the client when it tries to toggle the state of a slot within a Crafter.

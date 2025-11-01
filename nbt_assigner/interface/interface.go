@@ -1,11 +1,11 @@
 package nbt_assigner_interface
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_cache"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_console"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_cache"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_console"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
 
 	"github.com/google/uuid"
 )

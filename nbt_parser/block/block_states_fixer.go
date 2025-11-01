@@ -1,9 +1,9 @@
 package nbt_parser_block
 
 import (
-	"github.com/OmineDev/flowers-for-machines/mapping"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
-	"github.com/OmineDev/flowers-for-machines/utils"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
+	"github.com/mcpol-studio/flowers-for-machines/utils"
 )
 
 func init() {

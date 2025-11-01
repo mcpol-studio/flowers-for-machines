@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/utils"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/utils"
 )
 
 // 默认 NBT 实体

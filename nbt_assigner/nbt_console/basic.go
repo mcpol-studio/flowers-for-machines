@@ -3,9 +3,9 @@ package nbt_console
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/game_interface"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/game_interface"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
 
 	"github.com/go-gl/mathgl/mgl32"
 )

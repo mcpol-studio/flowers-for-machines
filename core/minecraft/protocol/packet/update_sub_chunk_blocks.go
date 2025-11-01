@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+import "github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 
 // UpdateSubChunkBlocks is essentially just UpdateBlock packet, however for a set of blocks in a sub-chunk.
 type UpdateSubChunkBlocks struct {

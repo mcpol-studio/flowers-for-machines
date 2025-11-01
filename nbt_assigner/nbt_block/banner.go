@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/game_interface"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/block_helper"
-	nbt_assigner_interface "github.com/OmineDev/flowers-for-machines/nbt_assigner/interface"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_cache"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_console"
-	nbt_parser_block "github.com/OmineDev/flowers-for-machines/nbt_parser/block"
-	nbt_parser_general "github.com/OmineDev/flowers-for-machines/nbt_parser/general"
-	nbt_parser_item "github.com/OmineDev/flowers-for-machines/nbt_parser/item"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/game_interface"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/block_helper"
+	nbt_assigner_interface "github.com/mcpol-studio/flowers-for-machines/nbt_assigner/interface"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_cache"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_console"
+	nbt_parser_block "github.com/mcpol-studio/flowers-for-machines/nbt_parser/block"
+	nbt_parser_general "github.com/mcpol-studio/flowers-for-machines/nbt_parser/general"
+	nbt_parser_item "github.com/mcpol-studio/flowers-for-machines/nbt_parser/item"
 )
 
 // 旗帜

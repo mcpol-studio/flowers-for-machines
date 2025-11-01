@@ -3,8 +3,8 @@ package game_interface
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
 )
 
 // ReplaceitemPath 指示 replaceitem 时目标物品栏的槽位类型。

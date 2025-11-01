@@ -1,8 +1,8 @@
 package item_stack_operation
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
 )
 
 // Renaming 指示基于铁砧的物品重命名操作

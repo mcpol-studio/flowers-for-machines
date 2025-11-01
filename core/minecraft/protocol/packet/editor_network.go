@@ -1,8 +1,8 @@
 package packet
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/nbt"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/nbt"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // EditorNetwork is a packet sent from the server to the client and vise-versa to communicate editor-mode related

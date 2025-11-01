@@ -1,8 +1,8 @@
 package nbt_hash
 
 import (
-	nbt_parser_block "github.com/OmineDev/flowers-for-machines/nbt_parser/block"
-	nbt_parser_interface "github.com/OmineDev/flowers-for-machines/nbt_parser/interface"
+	nbt_parser_block "github.com/mcpol-studio/flowers-for-machines/nbt_parser/block"
+	nbt_parser_interface "github.com/mcpol-studio/flowers-for-machines/nbt_parser/interface"
 
 	"github.com/cespare/xxhash/v2"
 )

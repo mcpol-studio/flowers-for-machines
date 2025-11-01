@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/internal"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/internal"
 )
 
 // Encoder handles the encoding of Minecraft packets that are sent to an io.Writer. The packets are compressed

@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/client"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/game_interface"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_cache"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_console"
+	"github.com/mcpol-studio/flowers-for-machines/client"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/game_interface"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_cache"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_console"
 
 	"github.com/pterm/pterm"
 )

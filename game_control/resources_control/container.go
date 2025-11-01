@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
-	"github.com/OmineDev/flowers-for-machines/mapping"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
 )
 
 const (

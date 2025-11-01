@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/internal"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/internal"
 	"github.com/golang/snappy"
 	"github.com/klauspost/compress/flate"
 )

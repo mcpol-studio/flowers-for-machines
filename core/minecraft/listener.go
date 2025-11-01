@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/resource"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/resource"
 )
 
 // ListenConfig holds settings that may be edited to change behaviour of a Listener.

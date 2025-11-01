@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/bunker/auth"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
-	"github.com/OmineDev/flowers-for-machines/core/py_rpc"
-	cts "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server"
-	cts_mc "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft"
-	cts_mc_p "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/preset"
-	cts_mc_v "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/vip_event_system"
-	mei "github.com/OmineDev/flowers-for-machines/core/py_rpc/mod_event/interface"
+	"github.com/mcpol-studio/flowers-for-machines/core/bunker/auth"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/core/py_rpc"
+	cts "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server"
+	cts_mc "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft"
+	cts_mc_p "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/preset"
+	cts_mc_v "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/client_to_server/minecraft/vip_event_system"
+	mei "github.com/mcpol-studio/flowers-for-machines/core/py_rpc/mod_event/interface"
 )
 
 // openConnection 通过 authenticator 连接到租赁服，

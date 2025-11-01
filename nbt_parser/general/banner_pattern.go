@@ -1,8 +1,8 @@
 package nbt_parser_general
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/mapping"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
 )
 
 // 描述旗帜的种类

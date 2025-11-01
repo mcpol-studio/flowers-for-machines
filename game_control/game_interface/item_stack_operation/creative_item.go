@@ -1,8 +1,8 @@
 package item_stack_operation
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
 )
 
 // CreativeItem 指示创造物品获取操作

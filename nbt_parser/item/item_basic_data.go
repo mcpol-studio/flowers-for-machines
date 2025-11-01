@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 
 	"github.com/df-mc/worldupgrader/itemupgrader"
 	"github.com/mitchellh/mapstructure"

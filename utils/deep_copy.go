@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/nbt"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/nbt"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 )
 
 // DeepCopyNBT 深拷贝 src 所指示的 NBT 数据，

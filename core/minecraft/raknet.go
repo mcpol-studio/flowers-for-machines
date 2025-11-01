@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/raknet"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/raknet"
 )
 
 // RakNet is an implementation of a RakNet v10 Network.

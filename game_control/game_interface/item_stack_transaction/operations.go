@@ -1,10 +1,10 @@
 package item_stack_transaction
 
 import (
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/game_control/game_interface/item_stack_operation"
-	"github.com/OmineDev/flowers-for-machines/game_control/resources_control"
-	"github.com/OmineDev/flowers-for-machines/mapping"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/game_interface/item_stack_operation"
+	"github.com/mcpol-studio/flowers-for-machines/game_control/resources_control"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
 )
 
 // MoveItem 将 source 处的物品移动到 destination 处，

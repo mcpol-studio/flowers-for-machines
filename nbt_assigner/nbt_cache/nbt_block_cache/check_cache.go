@@ -1,7 +1,7 @@
 package nbt_block_cache
 
 import (
-	nbt_hash "github.com/OmineDev/flowers-for-machines/nbt_parser/hash"
+	nbt_hash "github.com/mcpol-studio/flowers-for-machines/nbt_parser/hash"
 )
 
 // CheckCache 检索整个缓存命中系统，查询 hashNumber 是否存在。

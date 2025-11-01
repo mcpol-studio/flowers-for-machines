@@ -3,11 +3,11 @@ package nbt_block
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/block_helper"
-	"github.com/OmineDev/flowers-for-machines/nbt_assigner/nbt_console"
-	nbt_parser_block "github.com/OmineDev/flowers-for-machines/nbt_parser/block"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/block_helper"
+	"github.com/mcpol-studio/flowers-for-machines/nbt_assigner/nbt_console"
+	nbt_parser_block "github.com/mcpol-studio/flowers-for-machines/nbt_parser/block"
 
 	"github.com/go-gl/mathgl/mgl32"
 )

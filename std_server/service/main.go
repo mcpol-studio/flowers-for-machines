@@ -8,7 +8,7 @@ import (
     "os"
     "bufio"
 
-    service "github.com/OmineDev/flowers-for-machines/std_server/service/src"
+    service "github.com/mcpol-studio/flowers-for-machines/std_server/service/src"
     "github.com/pterm/pterm"
 )
 

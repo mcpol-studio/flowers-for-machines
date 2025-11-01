@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
-	"github.com/OmineDev/flowers-for-machines/mapping"
-	nbt_parser_general "github.com/OmineDev/flowers-for-machines/nbt_parser/general"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
+	nbt_parser_general "github.com/mcpol-studio/flowers-for-machines/nbt_parser/general"
 
 	"github.com/mitchellh/mapstructure"
 )

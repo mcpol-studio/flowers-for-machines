@@ -1,6 +1,6 @@
 package item_stack_operation
 
-import "github.com/OmineDev/flowers-for-machines/core/minecraft/protocol"
+import "github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol"
 
 const (
 	IDItemStackOperationMove uint8 = iota

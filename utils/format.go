@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/OmineDev/flowers-for-machines/mapping"
+	"github.com/mcpol-studio/flowers-for-machines/mapping"
 )
 
 // FormatBool 将 input 格式化为中文表示

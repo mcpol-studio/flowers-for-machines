@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/OmineDev/flowers-for-machines/core/minecraft/protocol/packet"
-	"github.com/OmineDev/flowers-for-machines/utils"
+	"github.com/mcpol-studio/flowers-for-machines/core/minecraft/protocol/packet"
+	"github.com/mcpol-studio/flowers-for-machines/utils"
 
 	"github.com/google/uuid"
 	"github.com/pterm/pterm"
